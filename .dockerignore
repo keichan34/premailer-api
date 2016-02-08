@@ -2,3 +2,4 @@ LICENSE.txt
 README.md
 .git
 .dockerignore
+.ruby-version
