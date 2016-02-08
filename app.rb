@@ -10,7 +10,8 @@ class App < Sinatra::Base
   get '/' do
     headers "Content-Type" => "application/json"
     Oj.dump({
-      "version" => "1.0"
+      "version" => "1.0",
+      "source" => "https://github.com/keichan34/premailer-api"
     })
   end
 
