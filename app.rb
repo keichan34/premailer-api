@@ -7,6 +7,8 @@ require "premailer"
 require "oj"
 
 class App < Sinatra::Base
+  disable :protection
+
   get '/' do
     headers "Content-Type" => "application/json"
     Oj.dump({
